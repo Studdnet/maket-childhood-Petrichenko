@@ -349,9 +349,11 @@
 		<div class="container">
 			<div class="row align-items-center">
 				<div class="col-lg-3">
-					<a href="#" class="footer__logo">
-						<img src="<?php echo bloginfo('template_url'); ?>/assets/img/icons/svg/logo.svg" alt="мир детства" class="footer__logo-img">
-						<div class="footer__logo-text">мир детства</div>
+					<a href="<?php echo get_home_url(); ?>" class="footer__logo">
+						<img src='<?php
+						$custom_logo__url = wp_get_attachment_image_src( get_theme_mod( 'custom_logo' ), 'full' ); 
+						echo $custom_logo__url[0]; 
+						?>' alt="logo" class="header__logo-img">
 					</a>
 				</div>
 				<div class="col-md-4 col-lg-3">

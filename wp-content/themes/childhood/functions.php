@@ -15,4 +15,4 @@ function childhood_scripts() {
 	// wp_enqueue_script('childhood-scripts', get_template_directory_uri() . '/assets/js/main.min.js', array('jquery'), null, true); - подключаем с Jquery
 };
 
-add_theme_support( 'custom-logo' );
+add_theme_support( 'custom-logo' );  //Добавляем подключение кастомного логотипа в админку 
