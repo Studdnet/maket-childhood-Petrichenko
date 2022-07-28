@@ -1,11 +1,10 @@
 <?php
-get_header();
+get_header(); 
 ?>
-
 	<div class="mainslider glide">
 		<div class="glide__track" data-glide-el="track">
 			<ul class="glide__slides">
-				<li style="background-image: url('<?php echo bloginfo('template_url'); ?>/assets/img/bg_1.jpg')" class="glide__slide">
+				<li style="background-image: url('<?php echo bloginfo("template_url"); ?>/assets/img/bg_1.jpg')" class="glide__slide">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7 offset-1">
@@ -25,7 +24,7 @@ get_header();
 						</button>
 					</div>
 				</li>
-				<li style="background-image: url('<?php echo bloginfo('template_url'); ?>/assets/img/bg_2.jpg')" class="glide__slide">
+				<li style="background-image: url('<?php echo bloginfo("template_url"); ?>/assets/img/bg_2.jpg')" class="glide__slide">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7 offset-1">
@@ -45,7 +44,7 @@ get_header();
 						</div>
 					</div>
 				</li>
-				<li style="background-image: url('<?php echo bloginfo('template_url'); ?>/assets/img/bg_3.jpg')" class="glide__slide">
+				<li style="background-image: url('<?php echo bloginfo("template_url"); ?>/assets/img/bg_3.jpg')" class="glide__slide">
 					<div class="container">
 						<div class="row">
 							<div class="col-lg-7 offset-1">
@@ -74,7 +73,7 @@ get_header();
 			<div class="row">
 				<div class="col-md-10 offset-md-1 col-lg-5 offset-lg-1">
 					<div class="about__img">
-						<img src="<?php echo bloginfo('template_url'); ?>/assets/img/about.jpg" alt="про компанию">
+						<img src="<?php echo bloginfo("template_url"); ?>/assets/img/about.jpg" alt="про компанию">
 					</div>
 				</div>
 				<div class="col-md-10 offset-md-1 offset-lg-0 col-lg-6 col-xl-5 offset-xl-1">
@@ -94,7 +93,7 @@ get_header();
 			<div class="title">Наша команда</div>
 			<div class="row">
 				<div class="col-lg-10 offset-lg-1">
-					<img class="specialists__img" src="<?php echo bloginfo('template_url'); ?>/assets/img/team.jpg" alt="наша команда">
+					<img class="specialists__img" src="<?php echo bloginfo("template_url"); ?>/assets/img/team.jpg" alt="наша команда">
 				</div>
 			</div>
 		</div>
@@ -104,7 +103,7 @@ get_header();
 		<div class="container">
 			<h2 class="subtitle">Мягкие игрушки</h2>
 			<div class="toys__wrapper">
-				<div class="toys__item" style="background-image: url(<?php echo bloginfo('template_url'); ?>/assets/img/toy_1.jpg)">
+				<div class="toys__item" style="background-image: url(<?php echo bloginfo("template_url"); ?>/assets/img/toy_1.jpg)">
 					<div class="toys__item-info">
 						<div class="toys__item-title">Плюшевые медведи</div>
 						<div class="toys__item-descr">
@@ -114,7 +113,7 @@ get_header();
 					</div>
 				</div>
 
-				<div class="toys__item" style="background-image: url(<?php echo bloginfo('template_url'); ?>/assets/img/toy_2.jpg)">
+				<div class="toys__item" style="background-image: url(<?php echo bloginfo("template_url"); ?>/assets/img/toy_2.jpg)">
 					<div class="toys__item-info">
 						<div class="toys__item-title">Совенок</div>
 						<div class="toys__item-descr">
@@ -124,7 +123,7 @@ get_header();
 					</div>
 				</div>
 
-				<div class="toys__item" style="background-image: url(<?php echo bloginfo('template_url'); ?>/assets/img/toy_3.jpg)">
+				<div class="toys__item" style="background-image: url(<?php echo bloginfo("template_url"); ?>/assets/img/toy_3.jpg)">
 					<div class="toys__item-info">
 						<div class="toys__item-title">Кролики</div>
 						<div class="toys__item-descr">
@@ -133,7 +132,7 @@ get_header();
 					</div>
 				</div>
 
-				<div class="toys__item" style="background-image: url(<?php echo bloginfo('template_url'); ?>/assets/img/toy_4.jpg)">
+				<div class="toys__item" style="background-image: url(<?php echo bloginfo("template_url"); ?>/assets/img/toy_4.jpg)">
 					<div class="toys__item-info">
 						<div class="toys__item-title">Гибкие</div>
 						<div class="toys__item-descr">
@@ -142,7 +141,7 @@ get_header();
 						<div class="minibutton toys__trigger">Подробнее</div>
 					</div>
 				</div>
-				<div class="toys__item" style="background-image: url(<?php echo bloginfo('template_url'); ?>/assets/img/toy_5.jpg)">
+				<div class="toys__item" style="background-image: url(<?php echo bloginfo("template_url"); ?>/assets/img/toy_5.jpg)">
 					<div class="toys__item-info">
 						<div class="toys__item-title">Персонажи</div>
 						<div class="toys__item-descr">
@@ -151,7 +150,7 @@ get_header();
 						<div class="minibutton toys__trigger">Подробнее</div>
 					</div>
 				</div>
-				<div class="toys__item" style="background-image: url(<?php echo bloginfo('template_url'); ?>/assets/img/toy_6.jpg)">
+				<div class="toys__item" style="background-image: url(<?php echo bloginfo("template_url"); ?>/assets/img/toy_6.jpg)">
 					<div class="toys__item-info">
 						<div class="toys__item-title">Необычные</div>
 						<div class="toys__item-descr">
@@ -166,7 +165,7 @@ get_header();
 			<h2 class="subtitle">Развивающие игрушки</h2>
 			<div class="toys__wrapper">
 
-				<div class="toys__item" style="background-image: url(<?php echo bloginfo('template_url'); ?>/assets/img/toy_7.jpg)">
+				<div class="toys__item" style="background-image: url(<?php echo bloginfo("template_url"); ?>/assets/img/toy_7.jpg)">
 					<div class="toys__item-info">
 						<div class="toys__item-title">Воздушный змей</div>
 						<div class="toys__item-descr">
@@ -176,7 +175,7 @@ get_header();
 					</div>
 				</div>
 
-				<div class="toys__item" style="background-image: url(<?php echo bloginfo('template_url'); ?>/assets/img/toy_8.jpg)">
+				<div class="toys__item" style="background-image: url(<?php echo bloginfo("template_url"); ?>/assets/img/toy_8.jpg)">
 					<div class="toys__item-info">
 						<div class="toys__item-title">Музыкальные</div>
 						<div class="toys__item-descr">
@@ -212,13 +211,13 @@ get_header();
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<img class="aboutus__img" src="<?php echo bloginfo('template_url'); ?>/assets/img/about_1.jpg" alt="мир детства">
+					<img class="aboutus__img" src="<?php echo bloginfo("template_url"); ?>/assets/img/about_1.jpg" alt="мир детства">
 				</div>
 			</div>
 
 			<div class="row">
 				<div class="col-lg-6">
-					<img class="aboutus__img" src="<?php echo bloginfo('template_url'); ?>/assets/img/about_2.jpg" alt="мир детства">
+					<img class="aboutus__img" src="<?php echo bloginfo("template_url"); ?>/assets/img/about_2.jpg" alt="мир детства">
 				</div>
 				<div class="col-lg-6">
 					<div class="subtitle">
@@ -244,7 +243,7 @@ get_header();
 					</div>
 				</div>
 				<div class="col-lg-6">
-					<img class="aboutus__img" src="<?php echo bloginfo('template_url'); ?>/assets/img/about_3.jpg" alt="мир детства">
+					<img class="aboutus__img" src="<?php echo bloginfo("template_url"); ?>/assets/img/about_3.jpg" alt="мир детства">
 				</div>
 			</div>
 		</div>
@@ -745,7 +744,8 @@ get_header();
 			</div>
 		</div>
 	</div>
-	
-	<?php
+
+	<?php 
 	get_footer();
 	?>
+	
